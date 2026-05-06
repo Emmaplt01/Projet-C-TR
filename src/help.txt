@@ -1,0 +1,8 @@
+Usage: tr [OPTION]... STRING1 [STRING2]
+Translate, squeeze, and/or delete characters from standard input,
+writing to standard output.  STRING1 and STRING2 specify arrays of
+characters ARRAY1 and ARRAY2 that control the action.
+
+  -c,                    use the complement of ARRAY1
+  -d, --delete            delete characters in ARRAY1, do not translate
+      --help        display this help and exit
